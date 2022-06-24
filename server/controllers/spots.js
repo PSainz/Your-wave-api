@@ -34,7 +34,9 @@ export const getSpots = async (req, res) => {
       break_type,
       rating,
       selectedFile,
-      location
+      location,
+      vibe,
+      beer
     } = req.body;
   
     const newSpot = new Spot({
@@ -46,7 +48,9 @@ export const getSpots = async (req, res) => {
       break_type,
       rating,
       selectedFile,
-      location
+      location,
+      vibe,
+      beer
     });
   
     try {
