@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
   res.send('Your wave API')
 });
 const CONNECTION_URL = process.env.CONNECTION_URL;
+console.log(CONNECTION_URL);
 const PORT = process.env.PORT|| 5500;
 
 
