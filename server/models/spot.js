@@ -35,13 +35,10 @@ const spotSchema = mongoose.Schema({
   },
   beer: {
     type: String,
-    required: [true, "Beer field is required"],
   },
   vibe: {
     type: String,
     required: [true, "Vibe field is required"],
-    enum: ["Ok", "Ko"],
-
   },
   location: {
     type: {},
